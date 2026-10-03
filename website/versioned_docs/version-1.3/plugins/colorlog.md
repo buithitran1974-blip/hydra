@@ -26,7 +26,7 @@ Override `hydra/job_logging` and `hydra/hydra_logging` in your config:
 defaults:
   - override hydra/job_logging: colorlog
   - override hydra/hydra_logging: colorlog
-```
+``
 
 There are several standard approaches for configuring plugins. Check [this page](../patterns/configuring_plugins.md) for more information.
 
